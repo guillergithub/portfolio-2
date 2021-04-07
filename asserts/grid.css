@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+
+
+/* ============= MEDIA QUERYS ================== */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+ }
+
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 768px) {   
+    /* START MQ MENU */
+    .btn-menu {
+        display: none;
+    }
+
+    .container-profile-photo {
+        display: flex;        
+        justify-content: center;
+    }
+
+    .container-card-logo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+        height: 50vh;
+    }
+
+    .container-menu {
+        display: flex;           
+        width: 30vw;
+        align-items: center;
+        justify-content: center;    
+        height: 100vh;
+    }
+
+    .hidden-menu {
+        display: flex; 
+        width: 30vw;
+        height: 50vh;
+        align-items: flex-end;
+    }    
+   
+    
+    .hero {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu {
+        height: 50vh;
+    }
+
+    .page {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+       /* END MQ MENU */
+ }
+
+
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+}
+
+/* ============= COLUMNS =============== */
+.col-12 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 33%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-9 {
+    width: 66%;
+    font-size: 3rem;
+}
+
+
+

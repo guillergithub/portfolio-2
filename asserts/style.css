@@ -1,0 +1,171 @@
+/* ============== HTML TAGS ================ */
+li {
+    list-style: none;
+}
+
+
+/* ============== COMPONENTS ================ */
+.btn-menu {
+    background-color: transparent;       
+    cursor: pointer;
+    border: none;
+    padding-right: 20px;
+    margin-left: 30px;
+}
+
+.btn-menu:hover {
+    transform: rotate(360deg);
+}
+
+.btn-menu span {
+    display: block;
+    background-color: white;
+    width: 25px;    
+    height: 2px;
+    margin: 5px 0;
+}
+
+/* .btn-menu .line-1 {
+    transform: rotate(-45deg) translate(-10px, 0px);
+    
+}
+
+.btn-menu .line-2 {    
+    opacity: 0;    
+}
+
+.btn-menu .line-3 {
+    transform: rotate(45deg) translate(-10px, 0px);   
+} */
+
+.container-icon-button {
+    display: flex;
+    align-items: center;    
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-icons {
+    display: flex;
+    align-items: center;
+    margin: 2% 0;    
+}
+
+.container-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;           
+    padding: 8px;
+    border-radius: 50%; 
+    transition: all 0.3s;
+}
+
+.container-icons a:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    border-radius: 50%;   
+    transition: all 0.3s;
+    background-color: rgba(245, 245, 245, 0.432);  
+}
+
+
+.container-card-logo {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;    
+   
+}
+
+.container-profile-photo {
+    display: none;
+    justify-content: center;       
+}
+
+
+
+.container-menu {
+    background: rgb(44, 206, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    flex-wrap: wrap;   
+    position: fixed;     
+}
+
+.hidden-menu {
+    display: none;    
+    transition: all 0.3s;    
+}
+
+.menu {
+    display: flex;   
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100vw;
+    background: rgba(0, 0, 0, 0.5);         
+    
+}
+
+
+
+
+
+
+/* ============ ELEMENTS ============ */
+
+.logo-text {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-size: 1.6rem;
+    margin-left: 10px;
+    
+}
+
+.menu li {
+    width: 100%;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: cornsilk;       
+    width: 100%;    
+    display: inline-block;   
+    padding: 2%;
+    transition: all 0.3s;
+}
+
+.menu li a:hover{
+    text-decoration: none;
+    color: cornsilk;   
+    width: 100%;    
+    display: inline-block;   
+    padding: 2%;
+    background: rgb(48, 177, 48); 
+    transition: all 0.3s;
+}
+
+
+.profile-photo {    
+    border-radius: 50%;
+    border: solid #f4f4f4 8px;
+    width: 180px;
+    margin-top: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
